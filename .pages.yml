@@ -21,9 +21,9 @@ content:
         type: image
         options:
           media: images
-          path: images/posts
+          path: images
       - name: tags
-        type: string
+        type: text
       - name: body
         type: rich-text
         options:
