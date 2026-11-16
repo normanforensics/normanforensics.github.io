@@ -24,6 +24,7 @@ content:
           path: images
       - name: tags
         type: string
+        list: true
       - name: body
         type: rich-text
         options:
