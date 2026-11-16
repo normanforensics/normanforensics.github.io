@@ -23,7 +23,7 @@ content:
           media: images
           path: images
       - name: tags
-        type: array
+        type: string
       - name: body
         type: rich-text
         options:
