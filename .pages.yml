@@ -1,0 +1,34 @@
+media:
+  - name: images
+    label: Images
+    input: images
+    output: /images/
+    rename: safe
+    extensions: [png, jpg, webp]
+content:
+  - name: Blog
+    label: Blog
+    type: collection
+    path: _posts
+    fields:
+      - name: title
+        type: string
+      - name: description
+        type: text
+      - name: date
+        type: date
+      - name: image
+        type: image
+        options:
+          media: images
+          path: images/posts
+      - name: tags
+        type: string
+      - name: body
+        type: rich-text
+        options:
+          media: content_images
+          path: images/
+          rename: true
+          switcher: true
+
