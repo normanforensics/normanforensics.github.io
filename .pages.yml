@@ -21,7 +21,7 @@ content:
         type: image
         options:
           media: images
-          path: images
+          path: images/posts
       - name: tags
         type: string
       - name: body
